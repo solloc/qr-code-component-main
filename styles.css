@@ -9,7 +9,7 @@
 }
 
 html {
-    font-size: clamp(0.5rem, 2vw, 2rem);
+    font-size: min(1rem);
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -35,8 +35,8 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    border-radius: 15px;
+    padding: 1rem;
+    border-radius: 1rem;
 
     img {
         border-radius: 15px;
