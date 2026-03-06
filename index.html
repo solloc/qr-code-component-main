@@ -10,7 +10,57 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@400;700&display=swap');
+
+    :root {
+      --color-white: hsl(0, 0%, 100%);
+      --color-slate-300: hsl(212, 45%, 89%);
+      --color-slate-500: hsl(216, 15%, 48%);
+      --color-slate-900: hsl(218, 44%, 22%);
+    }
+
+    body {
+      font-size: 15px;
+      font-family: Poppins;
+      background-color: var(--color-slate-300);
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .container {
+      background-color: var(--color-white);
+      width: 300px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      border-radius: 15px;
+
+      img {
+        /* width: 50%; */
+        /* margin: 10px; */
+        border-radius: 15px;
+      }
+
+      h2 {
+        color: var(--color-slate-900);
+        font-weight: 700;
+        text-align: center;
+      }
+
+      p {
+        color: var(--color-slate-500);
+        font-weight: 400;
+        font-size: 0.8rem;
+        text-align: center;
+      }
+    }
+
+    .attribution { font-size: 11px; text-align: center; position: fixed; bottom: 0}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
@@ -18,13 +68,13 @@
   <main>
     <div class="container">
       <img src="images/image-qr-code.png" alt="QR code for frontend mentor"/>
-      <p>Improve your front-end skills by building projects</p>
+      <h2>Improve your front-end skills by building projects</h2>
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>   
     </div>
   </main>  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.novaimpact.com/">Matthias Maisch</a>.
   </div>
 </body>
 </html>
