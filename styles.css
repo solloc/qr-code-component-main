@@ -35,8 +35,8 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    padding: max(1rem);
-    border-radius: max(1rem);
+    padding: min(1rem, 3vw);
+    border-radius: min(1rem, 3vw);
 
     img {
         border-radius: 15px;
