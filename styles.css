@@ -6,7 +6,10 @@
     --color-slate-500: hsl(216, 15%, 48%);
     --color-slate-900: hsl(218, 44%, 22%);
     --color-link: hsl(228, 45%, 44%);
-    font-size: 15px;
+}
+
+html {
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -43,23 +46,25 @@ body {
         color: var(--color-slate-900);
         font-weight: 700;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin: 2rem auto 0;
+        line-height: 1.4;
     }
 
     p {
         color: var(--color-slate-500);
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-align: center;
         margin: 1rem auto 2rem;
+        line-height: 1.4;
     }
 }
 
 .attribution { 
     font-size: 11px; 
     text-align: center;
-    margin-top: 15px;
+    margin-block-start: 1rem;
 }
 
 .attribution a { 
