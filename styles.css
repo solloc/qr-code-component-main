@@ -35,8 +35,8 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: max(1rem);
+    border-radius: max(1rem);
 
     img {
         border-radius: 15px;
@@ -62,7 +62,7 @@ body {
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.7rem; 
     text-align: center;
     margin-block-start: 1rem;
 }
